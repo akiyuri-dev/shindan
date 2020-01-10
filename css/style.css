@@ -1,0 +1,26 @@
+#main-contents{
+    margin-top: 50px;
+}
+
+#top-text{
+    color: aliceblue;
+}
+
+#tweet {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+#tweetSub {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+}
+
+#result {
+    margin-top: 10px;
+}
+
+.card-text p {
+    margin-left: 10px;
+}
