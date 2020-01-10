@@ -7,14 +7,10 @@
 }
 
 #tweet {
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
+    margin: 5px;
 }
 #tweetSub {
-    position: fixed;
-    bottom: 80px;
-    right: 30px;
+    margin: 5px;
 }
 
 #result {
