@@ -17,7 +17,7 @@ function result() {
     
     var tweetURL = "https://twitter.com/intent/tweet?text=" 
         + encodeURIComponent(name + "さんは" 
-        + "SixTONESのmitation Rainの「"
+        + "SixTONESのImitation Rainの「"
         + result
         + "」について語ってください");
 
