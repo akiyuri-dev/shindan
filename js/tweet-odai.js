@@ -2,7 +2,8 @@ function result() {
     var name = document.getElementById("name").value;
 
     var result = "";
-    var wordList = ["Jungle", "紅", "Amazing!!!!!!", "時間",
+    var wordList = ["Jungle", "紅", "仕事or勉強", "試聴",
+        "Amazing!!!!!!", "時間", "朝",　"夜",
         "Hysteria", "雨", "イントロ", "サビ", 
         "RAM-PAM-PAM", "YOSHIKIさん", "YouTube", "Instagram", 
         "Night Train", "染まる", "ラジオ", "テレビ",
