@@ -30,7 +30,7 @@ function result() {
         + encodeURIComponent(name + "のSixTONESミニライブセットリスト\n\n");
 
     for (let i = 0; i < resultList.length; i++) {
-        result += "<p>" + resultList[i] + "</p>";
+        result += "<p class='card-text'>" + resultList[i] + "</p>";
         tweetURL += encodeURIComponent(resultList[i] + "\n");
     }
 
@@ -49,7 +49,7 @@ function result() {
     var html = "<div class='card mb-3'><div class='card-header'>" 
     + name 
     + "のSixTONESミニライブセットリスト</div>"
-    + "<div class='card-text'>" + result + "</div></div>"
+    + "<div class='card-body'>" + result + "</div></div>"
     + "<div id='tweetSub'>" + subTweetText + "</div>"
     + "<div id='tweet'>" + tweetText + "</div>";
     document.getElementById("result").innerHTML = html;
