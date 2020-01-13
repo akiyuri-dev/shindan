@@ -2,9 +2,9 @@ function result() {
     var name = document.getElementById("name").value;
 
     var result = "";
-    var wordList = ["Jungle", "Amazing!!!!!!", "Night Train", "Hysteria", "RAM-PAM-PAM",
-        "この星のHIKARI", "BE CRAZY", "IN THE STORM", "JAPONICA STYLE", "Beautiful Life",
-        "\"LAUGH\” IN THE LIFE", "MR. ズドン", "光る、兆し", "Telephone", "NEW WORLD"];
+    var wordList = ["Jungle", "Amazing!!!!!!", 
+        "この星のHIKARI", "IN THE STORM", "JAPONICA STYLE", 
+        "\"LAUGH\” IN THE LIFE", "MR. ズドン", "光る、兆し（モンストCM）", "Telephone（試聴）", "NEW WORLD（試聴）"];
 
     var wordSize = wordList.length;
     var j = Math.floor( Math.random() * wordSize );
