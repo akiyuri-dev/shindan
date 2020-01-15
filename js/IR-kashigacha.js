@@ -8,10 +8,10 @@ function result() {
         "[SSR]", "[UR]", "[N]", "[N]", "[R]", "[N]", "[N]", "[N]", "[R]"];
     var songList = ["Fake dreams", "壊れてゆく", "ガラスの薔薇", "時には激しく", "心に降り注ぐ",
         "Shall we play", "this game", "紅に染まるまで", "雨に打たれて", "Dancing in the rain",
-        "Till love comes to life", "What's meaning of life?", "What's the point", 
+        "Till love comes to life", "What\'s meaning of life?", "What\'s the point", 
         "in getting it right", "'Cause everything is fake", "Everybody breaks", 
         "To keep the faith", "Just say", "Everything breaks", "Price of pain was to blame",
-        "Cuts my mind", "like a razor blade", "Breaking down", "I'm breaking down",
+        "Cuts my mind", "like a razor blade", "Breaking down", "I\'m breaking down",
         "Peace of mind is shining down", "Should I play this endless game",
         "戻れない", "時代を振り返る", "流れる時間を止めて", "My friend", 
         "いつかはたどり着くよ", "夢の世界に", "目を閉じて", "翼を広げて",
