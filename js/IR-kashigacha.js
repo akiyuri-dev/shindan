@@ -15,7 +15,7 @@ function result() {
         "Peace of mind is shining down", "Should I play this endless game",
         "戻れない", "時代を振り返る", "流れる時間を止めて", "My friend", 
         "いつかはたどり着くよ", "夢の世界に", "目を閉じて", "翼を広げて",
-        "Close your eyes", "飛び立つのさ", "土砂降りの雨の中", "We’ll fly",
+        "Close your eyes", "飛び立つのさ", "土砂降りの雨の中", "We\’ll fly",
         "夢を求めて"];
 
     var raritySize = rarityList.length;
@@ -50,13 +50,13 @@ function result() {
 
     var subTweetURL = tweetURL + "&url=" +  encodeURIComponent(window.location.href);
 
-    var tweetText = "<a href='" + tweetURL + 
-    "' class='twitter-share-button data-lang='ja' data-show-count='false' target='_brank'>"
+    var tweetText = '<a href="' + tweetURL + 
+    '" class="twitter-share-button" data-lang="ja" data-show-count="false" target="_brank">'
     + "<button type='button' class='btn btn-info'>結果をツイート(URLなし)</button></a>"
     + "<script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>";
  
-    var subTweetText = "<a href='" + subTweetURL + 
-    "' class='twitter-share-button data-lang='ja' data-show-count='false' target='_brank'>"
+    var subTweetText = '<a href="' + subTweetURL + 
+    '" class="twitter-share-button" data-lang="ja" data-show-count="false" target="_brank">'
     + "<button type='button' class='btn btn-info'>結果をツイート(URLあり)</button></a>"
     + "<script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>";
 
