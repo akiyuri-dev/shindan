@@ -9,7 +9,7 @@ function result() {
     var songList = ["Fake dreams", "壊れてゆく", "ガラスの薔薇", "時には激しく", "心に降り注ぐ",
         "Shall we play", "this game", "紅に染まるまで", "雨に打たれて", "Dancing in the rain",
         "Till love comes to life", "What\'s meaning of life?", "What\'s the point", 
-        "in getting it right", "'Cause everything is fake", "Everybody breaks", 
+        "in getting it right", "\'Cause everything is fake", "Everybody breaks", 
         "To keep the faith", "Just say", "Everything breaks", "Price of pain was to blame",
         "Cuts my mind", "like a razor blade", "Breaking down", "I\'m breaking down",
         "Peace of mind is shining down", "Should I play this endless game",
