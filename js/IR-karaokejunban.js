@@ -21,7 +21,7 @@ function result() {
     }
 
     result += "<p class='card-text'>の順番で歌いましょう</p>";
-    tweetURL += encodeURIComponent(tweetURLText) + encodeURIComponent("の順番で歌いましょう");
+    tweetURL += encodeURIComponent(tweetURLText) + encodeURIComponent("の順番で歌いましょう\n");
 
     var subTweetURL = tweetURL + "&url=" +  encodeURIComponent(window.location.href);
 
