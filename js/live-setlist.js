@@ -20,7 +20,7 @@ function result() {
             resultList[imitationRandom] = t;
             counter++;
         }
-        if (resultList.indexOf("Imitation Rain") == resultList.lastIndexOf("Imitation Rain")) {
+        if (resultList.indexOf("NAVIGATOR") == resultList.lastIndexOf("NAVIGATOR")) {
             break;
         }
     }
