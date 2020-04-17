@@ -2,11 +2,11 @@ function result() {
     var name = document.getElementById("name").value;
 
     var result = "";
-    var resultList = ["Imitation Rain", "Imitation Rain", "Imitation Rain", 
-        "Imitation Rain"];
+    var resultList = ["NAVIGATOR", "NAVIGATOR", "NAVIGATOR", 
+        "NAVIGATOR"];
     var songList = ["Jungle", "Amazing!!!!!!", "Night Train", "Hysteria", "RAM-PAM-PAM",
         "この星のHIKARI", "BE CRAZY", "IN THE STORM", "JAPONICA STYLE", "Beautiful Life",
-        "\"LAUGH\” IN THE LIFE", "MR. ズドン", "光る、兆し", "Telephone", "NEW WORLD"];
+        "\"LAUGH\” IN THE LIFE", "MR. ズドン", "光る、兆し", "Telephone", "NEW WORLD", "Imitation Rain"];
 
     var songSize = songList.length;
     var counter = 0;
