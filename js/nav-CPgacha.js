@@ -2,7 +2,7 @@ function result() {
     var name = document.getElementById("name").value;
 
     var result = "";
-    var resultList = ["「NAVIGATOR」", "「love you...」", "「You & I」", 
+    var resultList = ["「NAVIGATOR」", "「love u...」", "「You & I」", 
         "「光る、兆し」", "「JAPONICA STYLE」", "「Hysteria」"];
     var resultSize = resultList.length;
 

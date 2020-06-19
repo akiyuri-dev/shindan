@@ -2,7 +2,7 @@ function result() {
     var name = document.getElementById("name").value;
 
     var result = "";
-    var resultList = ["NAVIGATOR", "Hysteria", "You & I", "love u…"];
+    var resultList = ["NAVIGATOR", "Hysteria", "You & I", "love u..."];
 
     var resultSize = resultList.length;
     var counter = 0;
