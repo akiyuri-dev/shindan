@@ -2,12 +2,12 @@ function result() {
     var name = document.getElementById("name").value;
 
     var result = "";
-    var resultList = ["NAVIGATOR", "NAVIGATOR", "NAVIGATOR", 
-        "NAVIGATOR"];
+    var resultList = ["NEW ERA", "NEW ERA", "NEW ERA", 
+        "NEW ERA"];
     var songList = ["Jungle", "Amazing!!!!!!", "Night Train", "Hysteria", "RAM-PAM-PAM",
         "この星のHIKARI", "BE CRAZY", "IN THE STORM", "JAPONICA STYLE", "Beautiful Life",
         "\"LAUGH\” IN THE LIFE", "MR. ズドン", "光る、兆し", "Telephone", "NEW WORLD", "Imitation Rain",
-        "You & I", "love u…"];
+        "You & I", "love u…", "NAVIGATOR", "Lemonade", "So Addicted", "Life in color"];
 
     var songSize = songList.length;
     var counter = 0;
