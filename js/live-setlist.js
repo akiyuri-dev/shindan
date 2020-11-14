@@ -2,12 +2,17 @@ function result() {
     var name = document.getElementById("name").value;
 
     var result = "";
-    var resultList = ["NEW ERA", "NEW ERA", "NEW ERA", 
-        "NEW ERA"];
-    var songList = ["Jungle", "Amazing!!!!!!", "Night Train", "Hysteria", "RAM-PAM-PAM",
+    var resultList = ["NEW ERA", "NEW ERA", "NEW ERA", "NEW ERA"];
+    var songList = ["NEW ERA", "NEW ERA", "NEW ERA", "NEW ERA", 
+        "Jungle", "Amazing!!!!!!", "Night Train", "Hysteria", "RAM-PAM-PAM",
+        "NEW ERA", "NEW ERA", "NEW ERA", "NEW ERA",
         "この星のHIKARI", "BE CRAZY", "IN THE STORM", "JAPONICA STYLE", "Beautiful Life",
+        "NEW ERA", "NEW ERA", "NEW ERA", "NEW ERA",
         "\"LAUGH\” IN THE LIFE", "MR. ズドン", "光る、兆し", "Telephone", "NEW WORLD", "Imitation Rain",
-        "You & I", "love u…", "NAVIGATOR", "Lemonade", "So Addicted", "Life in color"];
+        "NEW ERA", "NEW ERA", "NEW ERA", "NEW ERA",
+        "You & I", "love u…", "NAVIGATOR", "Lemonade",
+        "So Addicted", "Life in color", "NEW ERA", "NEW ERA", "NEW ERA", 
+        "NEW ERA"];
 
     var songSize = songList.length;
     var counter = 0;
@@ -16,12 +21,14 @@ function result() {
         var j = Math.floor( Math.random() * songSize );
         var t = songList[j];
 
-        var imitationRandom = Math.floor( Math.random() * resultList.length);
+        resultList[counter] = t;
+
+        /*var imitationRandom = Math.floor( Math.random() * resultList.length);
         if (resultList.indexOf(t) < 0) {
             resultList[imitationRandom] = t;
             counter++;
         }
-        /*if (resultList.indexOf("NAVIGATOR") == resultList.lastIndexOf("NAVIGATOR")) {
+        if (resultList.indexOf("NAVIGATOR") == resultList.lastIndexOf("NAVIGATOR")) {
             break;
         }*/
     }
