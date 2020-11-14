@@ -20,8 +20,10 @@ function result() {
     while(counter < 5){
         var j = Math.floor( Math.random() * songSize );
         var t = songList[j];
+        console.log(t);
 
         resultList[counter] = t;
+        counter++;
 
         /*var imitationRandom = Math.floor( Math.random() * resultList.length);
         if (resultList.indexOf(t) < 0) {
