@@ -21,9 +21,9 @@ function result() {
             resultList[imitationRandom] = t;
             counter++;
         }
-        if (resultList.indexOf("NAVIGATOR") == resultList.lastIndexOf("NAVIGATOR")) {
+        /*if (resultList.indexOf("NAVIGATOR") == resultList.lastIndexOf("NAVIGATOR")) {
             break;
-        }
+        }*/
     }
     
     
